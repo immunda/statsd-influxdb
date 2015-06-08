@@ -1,0 +1,3 @@
+~ StatsD -> InfluxDB
+
+Docker image and config for StatsD, backed by InfluxDB
