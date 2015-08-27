@@ -16,6 +16,9 @@
                 flushInterval: 1000
             }
         },
+        log: {
+            level: "LOG_WARNING"
+        },
         port: 8125,
         backends: ['./backends/console', 'statsd-influxdb-backend'],
         debug: process.env.STATSD_DEBUG || false,
