@@ -20,7 +20,7 @@
             level: "LOG_WARNING"
         },
         port: 8125,
-        backends: ['./backends/console', 'statsd-influxdb-backend'],
+        backends: ['statsd-influxdb-backend'],
         debug: process.env.STATSD_DEBUG || false,
         legacyNamespace: false
     };
